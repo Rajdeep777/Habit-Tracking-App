@@ -1,0 +1,195 @@
+/* style add for all element */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}a:hover{
+  color: white;
+}
+
+/* style for body */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'EB Garamond', serif;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  
+  color: white;
+}
+
+/* style root div */
+#root{
+  width: 80%;
+  border-right: 1px solid #323232;
+  border-left: 1px solid #323232;
+}
+
+/* style navbar component ---------------------------------*/
+.navbar{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  height: 6rem;
+  padding: 0px 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #323232;
+}
+
+.navbar:hover{
+  background: rgb(161 178 224);;
+  -webkit-transition: all 1s ease-in-out;
+}
+
+h3, h4{
+  color: black;
+}
+.right-nav{
+  display: flex;
+  align-items: center;
+}
+.right-nav h5{
+  color: black;
+  margin-right: .8rem;
+}
+.addhabit-btn{
+  cursor: pointer;
+  color: white;
+  background-color: #3662CC;
+  padding: 8px 20px;
+  border-radius: 7px;
+  -webkit-transition: all 0.7s ease-in-out;
+}
+
+.addhabit-btn:hover{
+  -webkit-transform: scale(1.1);
+  background: black;
+}
+/* modal */
+.modal-content{
+  background-color: #333333;
+}
+.modal-header{
+  border: none;
+}
+.modal-footer{
+  border: none;
+}
+/* ---------------------------------------------------- */
+
+/* habits components style------------------------------ */
+.habits{
+  width: 100%;
+}
+
+/* habit under habits component */
+.habit{
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #323232;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  -webkit-transition: all 0.7s ease-in-out;
+}
+.habit:hover{
+  background: rgb(137 202 223);
+}
+.habit-left{
+  display: flex;
+  align-items: center;
+}
+.habit-left i{
+  color: #2AA8D0;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #304950;
+  margin-right: 10px;
+}
+.day-complete{
+  color: white;
+  font-size:small;
+}
+.habit-right{
+  display: flex;
+  align-items: center;
+}
+.log-btn{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #424242;
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  -webkit-transition: all 0.7s ease-in-out;
+}
+
+.log-btn:hover{
+  -webkit-transform: scale(1.1);
+
+}
+
+.btn-habit{
+  -webkit-transition: all 0.7s ease-in-out;
+
+}
+
+.btn-habit:hover{
+  -webkit-transform: scale(1.1);
+}
+
+.log-btn:hover{
+  color: white;
+}
+.log-btn i{
+  margin-right: 5px;
+}
+.fa-trash{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #424242;
+}
+/* ------------------------------------------------------*/
+
+/* style week view container --------------------------- */
+.days-container{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+/* style day view component */
+.day-container{
+  height: 7.3rem;
+  width: 8.5rem;
+  background-color: #323232;
+  border-radius: 20px;
+  padding: 0.6rem;
+}
+p{
+  margin: 0%;
+}
+.day-complete{
+  color: black;
+}
+
+.circle-icon{
+  font-size: 24px;
+  margin: 14px 4px 0px 10px;
+  cursor: pointer;
+}
+.active{
+  color: #0B5ED7 ;
+}
+/* ------------------------------------------------------*/
